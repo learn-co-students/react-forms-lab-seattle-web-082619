@@ -15,7 +15,6 @@ class TwitterMessage extends React.Component {
       message: event.target.value,
       charCount: this.props.maxChars - event.target.value.length
     })
-    // this.setState({charCount:
   }
 
  
